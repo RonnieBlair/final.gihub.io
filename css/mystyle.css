@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* css Document */
 body {
-    background-image: url("../images/backg.image.jpg"); 
+    background-image: url("backg.image.jpg"); 
     background-size: cover;
     font-family: Helvetica, Arial, sans-serif;
     margin: 25;
@@ -71,7 +71,7 @@ table {
     float: right;
 }
 
-#container {    /* # is id, one time */
+#container { 
     background-color: floralwhite;
     width: 800px;
     height: 900;
@@ -125,13 +125,13 @@ table {
     text-decoration: none;   
 }
 
-.topnav ul li ul {         /* Dropdown*/
+.topnav ul li ul {
     display: none;
     position: absolute;
     background-color: aliceblue;
     padding: 10px;
     border-radius: 0px 0px 4px 4px;
-    /* z-index: 1000;   Don't Forget   */   
+    z-index: 1000;   Don't Forget 
 }
 
 .topnav ul li:hover ul {    
@@ -151,7 +151,7 @@ table {
     border-radius: 4px;
 }
 
-.topnav ul li ul li a:hover{    /* Box inside Dropdown */
+.topnav ul li ul li a:hover{
     background-color: #fad7db;
 }
 
@@ -353,7 +353,6 @@ table {
     }
 }    
 
-/*delect every element*/
 [id^="item"] {
     display: none;
 }
